@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel ="stylesheet"
+    href="css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação AE2</title>
+    <link rel="icon" href = "img/Icone.png">
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+<nav class="navbar navbar-expand-lg $secondary fixed-top text-light" style="background-color: #c2acff;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#sobre">Sobre</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#conteudo">Conteudo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tabela">Tabela</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resultado">Resultado</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mensagem">Mensagem</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#wiki">Wiki</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+
+
+<section id = "sobre">
+
+<h1 class="text text-center"><div><img src="img/AE2.png" class="mx-auto d-block w-50" alt="AE2"><br>&nbsp;Bem vindo! Este site foi criado com o intuito de informar o básico sobre a mecânica de automatização de recursos do Apllied Energistics 2</h1></section>
+
+<section id = "conteudo"></section>
+
+<br><p class="text-center">Este vídeo é uma introdução à automação no Mod Applied Energistics 2, mostrando a utilização do Annihilation Plane junto com outros itens do Mod.</p>
+<div class ="ratio ratio-16x9 container-sm">
+<video class="w-100" controls poster="img/poster.jpg">
+    <source src = "video/introducaoAutomacao.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    <track default
+     kind="subtitles" 
+     src="introducaoAutomacao.vtt" 
+     srclang="pt" 
+     label="Português"/>
+     
+</video>
+</div>
+<h1>Automação Básica: Annihilation Plane</h1>
+
+    <div class="text text-center text-wrap mx-1" style="width: auto">Um dos pontos mais importantes para a automação no Applied Energistics 2, que é um aclamdo Mod para o jogo de sucesso Minecraft, é a possibilidade de automaticamente destruir blocos utilizando o Annihilation Plane, que inclusive pode ser encantado para melhores resultados. Ao ser devidamente colocado, energizado e conectado à uma rede de sistema permite a quebra quase instantânea de todos os blocos e imediatamente os envia para dita rede, podendo ser configurado (de forma externa, pois nã possuí interface própia) para apenas fazê-lo para certos items.
+    </div><br>
+    
+    <h2>Para contruir um Annihilation Plane vocè precisará de:</h2>
+        <ul>
+            <li>3 Fluix Crystal</li>
+            <li>2 Barras de Ferro</li>
+            <li>1 Annihilation Core, que por sua vez precisará de:</li>
+            <li>1 cristal de quartzo de qualquer tipo</li>
+            <li>1 Fluix dust</li>
+            <li>1 Logic Processor, que é um item básico do Mod</li><br>   
+        </ul>
+<section id = "tabela"></section>
+    <p>Sobre a questão de encantamentos, a seguir há uma tabela com a diferença com e sem o encantamento Fortuna, que é o mais comum para este item.</p> 
+    
+<div class="mx-4">
+   <table class="table table-bordered table-striped table-sm table-hover align-middle">
+  <thead>
+    
+    <tr>
+        <th scope="col">Valor</th>
+        <th scope="col">Sem Fortuna</th>
+        <th scope="col">Fortuna I</th>
+        <th scope="col">Fortuna II</th>
+        <th scope="col">Fortuna III</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+            <th scope="row">Valor mínimo:</th>
+            <td>1 item por bloco</td>
+            <td>1 item por bloco</td>
+            <td>1 item por bloco</td>
+            <td>1 item por bloco</td>
+        </tr>
+         <tr>
+            <th scope="row">Valor médio:</th>
+            <td>1 itens por bloco</td>
+            <td>1.33 itens por bloco</td>
+            <td>1.75 itens por bloco</td>
+            <td>2.2 itens por bloco</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Valor máximo:</th>
+            <td>1 item por bloco</td>
+            <td>2 itens por bloco</td>
+            <td>3 itens por bloco</td>
+            <td>4 itens por bloco</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Cálculo para drop extra:</th>
+            <td>1×</td>
+            <td>66% 1×<br>33% 2×</td>
+            <td>50% 1×<br> 25% 2× <br>25% 3×</td>
+            <td>40% 1×<br> 20% 2× <br> 20% 3×<br> 20% 4×</td>
+        </tr>
+        </tbody>
+    </table>  
+</div>    
+    <p><em>Todos os valores usam como base um drop padrão de 1, para verificar outros valores e como o encantamento funciona, recomendo acessar a wiki oficial do própio Minecraft&nbsp;<a href = "https://minecraft.wiki/w/Fortune">aqui.</a><em></p>
+
+    <section id = "resultado"></section>
+        <p>Alguns itens utilizados em conjunto com o Annihilation Plane:</p><br><br>
+<div class="row justify-content-center">
+    <div class="col"><img src="img/Annihilation Plane.png" class="img float-center mx-2" alt="Annihilation Plane"><br>O própio Annihilation Plane, usado para quebrar blocos automaticamente</div>
+    <div class="col"><img src="img/Formation Plane.png" class="img float-center mx-2" alt="Formation Plane"><br>Formation Plane, utilizado para colocar<br> blocos automaticamente</div>
+    <div class="col"><img src="img/Storage Bus.png" class="img float-center mx-2" alt="Storage Bus"><br>Storage Bus, utilizado como um filtro de<br> itens em I/O com a rede principal</div>
+</div>
+
+<section id = "mensagem">
+
+<p>Em caso de qualquer sugestão ou reclamação, deixe sua mensagem!</p>
+<form>
+
+    <div class="mb-3">
+    <label for = "nome" class="form-label">Nome:</label>
+    <input type = "text" id = "nome" class="form-control" name = "nome" required placeholder="Nome">
+    </div>
+ 
+    <div class="mb-3">
+    <label for  = "email" class="form-label">Email:</label>
+    <input type = "email" id = "email" class="form-control" name = "email" required placeholder="Email">
+    </div>
+
+    <div class="mb-3">
+    <label for = "telefone" class="form-label">Telefone:</label>
+    <input type = "tel" id ="telefone" class="form-control" name = "telefone" required placeholder="Telefone">
+    </div>
+
+    <div class="mb-3">
+    <label for  = "mensagem" class="form-label">Mensagem:</label>
+    <textarea name = "mensagem" class="form-control" required placeholder="Sua mensagem"></textarea><br><br>
+    </div>
+
+    <div class = "botao"><button type="submit">Enviar mensagem</button></div>
+
+</form>
+</section>
+<section id ="wiki"></section>        
+<footer></div><p>Outras dúvidas consultar:<p><a href = "https://appliedenergistics.org/"><div class = "botao"></div><button type ="button">Wiki Oficial AE2</a></footer></div>
+<br>
+</body>
+</html>
